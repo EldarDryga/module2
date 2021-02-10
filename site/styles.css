@@ -1,0 +1,144 @@
+@font-face{
+    font-family: "Acme-Regular";
+    src: url("/mod2/fonts/Acme-Regular.ttf");
+
+}
+@media (min-width: 992px)
+{
+    .div1, .div2, .div3{
+        width: 350px;
+        height: 200px;
+
+    }
+    .div1{
+        position: absolute;
+        top: 150px;
+        left: 50px;
+    }
+    .div2{
+        position: absolute;
+        top: 150px;
+        left: 670px;
+    }
+    .div3{
+        position: absolute;
+        top: 150px;
+        left: 1310px;
+    }
+}
+@media(min-width:855px) and (max-width:1101px)
+{
+    .div1, .div2{
+        width: 350px;
+        height: 200px;
+
+    }
+    .div1{
+        position: absolute;
+        top: 150px;
+        left: 30px;
+    }
+    .div2{
+        position: absolute;
+        top: 150px;
+        left: 390px;
+    }
+    .div3{
+        position: absolute;
+        top: 370px;
+        left: 30px;
+        height: 200px;
+        width:710px ;
+        
+    }
+}
+@media (max-width:854px)
+{
+    .div1{
+      position: absolute;
+        top: 150px;
+        left: 0px;
+        width: 500px;
+        height: 200px;
+    }
+    .div2{
+        position: absolute;
+        top: 370px;
+        left: 0px;
+        width: 500px;
+        height: 200px;
+    }
+    .div3{
+        position: absolute;
+        top: 590px;
+        left: 0px;
+        width: 500px;
+        height: 200px;
+    }
+}
+*{
+    box-sizing: border-box;
+    font-family: "Acme-Regular" ;
+}
+h1{
+    text-align: center;
+}
+h4{
+    position: absolute;
+    top:20px;
+    left: 10px;
+    line-height: 24px;
+}
+.div1{
+    border: 2px solid rgb(0, 0, 0);
+
+
+background-color: rgb(160, 154, 165);
+
+}
+.div1_2{
+position: absolute;
+right: -2px;
+top: -2px;
+font-size: 20px;
+font-weight: bold;
+width: 120px;
+height: 40px;
+border: 2px solid black;
+text-align: center;
+background-color: lemonchiffon;
+}
+.div2{
+    border: 2px solid rgb(0, 0, 0);
+
+
+background-color: rgb(160, 154, 165);
+}
+.div2_2{
+    position: absolute;
+    right: -2px;
+    top: -2px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgb(82, 226, 226);
+    }
+    .div3{
+        border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(160, 154, 165);
+    }
+    .div3_2{
+        position: absolute;
+        right: -2px;
+        top: -2px;
+        font-size: 20px;
+        font-weight: bold;
+        width: 120px;
+        height: 40px;
+        border: 2px solid black;
+        text-align: center;
+        background-color: rgb(245, 124, 215);
+        }
