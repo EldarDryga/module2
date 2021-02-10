@@ -18,12 +18,12 @@
     .div2{
         position: absolute;
         top: 150px;
-        left: 670px;
+        left: 590px;
     }
     .div3{
         position: absolute;
         top: 150px;
-        left: 1310px;
+        left: 1130px;
     }
 }
 @media(min-width: 768px) and (max-width:991px)
